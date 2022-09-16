@@ -27,6 +27,7 @@ function CRED() {
           id : Math.floor(Math.random() * 1000),
           value : todo
       }
+      console.log(item);
       setData([...data, item])
       setTodo('')
 
@@ -35,7 +36,7 @@ function CRED() {
       
    
    }
-    // console.log(data);
+    console.log(data);
 
     const onEdit = (id) => {
       console.log(id)

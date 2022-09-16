@@ -8,7 +8,6 @@ function reducer (state, action) {
     return {count: state.count + 1}
     case 'Decriment':
     return {count: state.count - 1}
-  
     default:
        throw new Error()
   }
